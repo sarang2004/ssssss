@@ -1,0 +1,216 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+ }
+ 
+ ::selection{
+     color:#888989;
+     background:lightblue;
+ }
+ 
+.nav{
+    
+     width:100%;
+     padding: 10px 0;
+     box-shadow: 0px 7px 5px lightgray;
+     margin-bottom: 10px;
+     }
+
+ 
+ 
+.menu{
+     max-width: 1250px;
+     margin:auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0 15px;
+    
+ }
+ 
+ 
+ .menu.logo a{
+      text-decoration: none;
+      color: #18a47c;
+       font-size: 35px;
+       font-weight: 600;
+     }
+ 
+ 
+ .menu ul{
+     
+     display:inline-flex
+ }
+ 
+ .menu ul li{
+     list-style: none;
+     display: inline-block;
+     margin-left: 7px;
+ }
+ 
+ .menu ul li:first-child{
+     margin-left: 0px;
+ 
+ }
+ .menu ul li a{
+    text-decoration: none;
+    color: #18a47c;
+    font-size: 18px;
+    font-weight: 500;
+    padding:8px 15px;
+    border: radius 5px;
+    transition:all 0.3s ease;
+}
+
+.menu ul li a:hover{
+    background: #18a47c;
+    color: black;
+
+}
+
+.header_2{
+    display: flex;
+   justify-content: space-between;
+
+}
+
+
+.row_1{
+    text-align:center ;
+    margin-left: 200px;
+
+}
+
+.image1{
+    margin-right: 200px;
+    
+}
+.TBI{
+    color: #18a47c;
+}
+
+.TBI h1{
+    color: #23493e;
+    font-size: 60px;
+}
+.TBI h3{
+    color: #255a4b;
+}
+
+.DO{
+    background-color: #15a67d;
+    width: auto;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+
+}
+
+
+.What_We_Do h1{
+    margin-left: 50px;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.What_We_Do p{
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.computer{
+    padding-top: 235px;
+    margin-bottom: auto;
+     
+}
+.Companies_Incubated{
+    color:#23493e;
+}
+
+.Companies{
+    padding-left: 300px;
+}
+
+.About{
+    background-color: #15a67d;
+    width: auto;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+
+}
+.About h1{
+    margin-left: 50px;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.About p{
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: left;
+}
+.People{
+   padding-top: 180px;
+   
+}
+
+.Contact_us{
+    color: #23493e;
+}  
+
+.Contact{
+    display: flex;
+    justify-content: space-between;
+}
+.row_3{
+    
+    background-color: aquamarine;
+    width: 800px;
+}
+
+.row_3 .Query{
+    text-align: center;
+    color: #23493e;
+}
+.row_3 .table{
+    margin-left: 30px;
+}
+
+.row_3 .Submit input{
+    margin-left: 300px;
+    border-radius: 5px;
+    background-color: #1d5a32;
+    width: 200px;
+    height: 30px;
+    color: white;
+}
+
+
+.Thalassery{
+    display: flex;
+    justify-content: space-between;
+    color: #18a47c;
+}
+
+.follow{
+    color: #18a47c;
+}
+.social{
+    padding-left: 10px;
+}
+
+.footer{
+    background-color:#23493e;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright{
+    padding-top: 10px;
+}
